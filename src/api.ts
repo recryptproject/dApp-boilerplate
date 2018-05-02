@@ -2,10 +2,10 @@ import {
   ConfirmedTransaction,
   Contract,
   IContractInfo,
-  QtumRPC,
-} from "qtumjs"
+  RecryptRPC,
+} from "recryptjs"
 
-const rpc = new QtumRPC(QTUM_RPC)
+const rpc = new RecryptRPC(RECRYPT_RPC)
 const counter = new Contract(rpc, CONTRACTS.counter)
 
 export async function getCount(): Promise<number> {

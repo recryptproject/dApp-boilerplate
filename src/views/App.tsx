@@ -38,7 +38,7 @@ export class App extends React.Component<{}, IAppState> {
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <span className="navbar-item">
-              My QTUM DApp
+              My RECRYPT DApp
             </span>
           </div>
         </nav>
